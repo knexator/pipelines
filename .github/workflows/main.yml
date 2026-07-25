@@ -18,5 +18,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Deploy
-        run: butler push ./v1 $ITCHIO_USERNAME/$ITCHIO_GAME:html5
+      - name: Setup butler
+        uses: remarkablegames/setup-butler@v3
+
+      - name: Upload to itch.io
+        run: butler push ./v1 knexator/pipelines-learning:html
+        env:
+          BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
