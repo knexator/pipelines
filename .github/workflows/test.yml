@@ -13,10 +13,5 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
       - name: Validate syntax
         run: npx --yes htmlhint v1/index.html
