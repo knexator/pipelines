@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://bxnd7lcsgnqmv"]
+
+[ext_resource type="Texture2D" uid="uid://c0qgrpfe5rnjf" path="res://build/Pipelines.icon.png" id="1_ynn7d"]
+[ext_resource type="Script" path="res://main.gd" id="2_1bg3t"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(6, 0)
+texture = ExtResource("1_ynn7d")
+script = ExtResource("2_1bg3t")
