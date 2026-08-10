@@ -26,14 +26,19 @@ Para que funcionen bien, hace falta infraestructura
 Automatizan el camino entre código fuente y resultado final
 Tests, builds, despliegues, etc
 
-"ejecutar el README.md"
+Intuición: "ejecutan el README.md"
 
 ---
 
-# Objetivos
+# Objetivos del CI/CD
 - dormir mejor
 - quitar pereza/fricción de hacer cambios
 - mejorar el **ciclo de feedback**
+
+<br>
+
+> Ley de Gall: A complex system that works is invariably found to have evolved from a simple system that worked. A complex system designed from scratch never works and cannot be patched up to make it work. You have to start over with a working simple system.
+
 
 ---
 
