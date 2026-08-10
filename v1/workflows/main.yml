@@ -22,6 +22,6 @@ jobs:
         uses: remarkablegames/setup-butler@v3
 
       - name: Upload to itch.io
-        run: butler push ./v1 knexator/pipelines-learning:html
+        run: butler push ./v1 knexator/pipelines-learning:html5
         env:
           BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
