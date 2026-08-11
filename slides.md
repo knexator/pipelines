@@ -15,7 +15,8 @@ https://martinfowler.com/articles/continuousIntegration.html
 **Continous Delivery**: Trabajar de forma que puedas entregar el software en cualquier momento
 https://martinfowler.com/bliki/ContinuousDelivery.html
 
-<br>
+**Continous Deployment**: Entregarlo continuamente (subir el juego a itch en cada commit, por ejemplo)
+
 <br>
 Para que funcionen bien, hace falta infraestructura
 
